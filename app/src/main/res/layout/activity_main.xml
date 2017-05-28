@@ -6,36 +6,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.danny.happybirthday.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:padding="10dp"
-        android:text="@string/message"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="36sp"
-        android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white" />
-
     <ImageView android:src="@drawable/androidparty"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
         android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
         tools:ignore="ContentDescription" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:background="@color/colorAccent"
+        android:text="@string/message"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/signature"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white" />
 
 </RelativeLayout>
